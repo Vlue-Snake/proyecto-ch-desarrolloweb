@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #caa6da;
+  font-family: "Indie Flower", cursive;
+}
+
+header {
+  background-color: #3f0d5c;
+  box-sizing: border-box;
+  display: flex;
+}
+header .logo-principal {
+  padding: 100px 10px 80px 150px;
+  width: 850px;
+}
+header .encabezado {
+  height: 10vh;
+  margin: 0.2rem;
+}
+header .main_Ind {
+  width: 455px;
+}
+header .mainBio {
+  width: 500px;
+}
+header .mainMiem {
+  width: 450px;
+}
+header .mainDisc {
+  padding-left: 20px;
+  width: 300px;
+}
+header .mainTourConc {
+  padding-left: 25px;
+  width: 370px;
+}
+header .mainGal {
+  width: 505px;
+}
+
+nav {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  padding: 5px 0px 5px 0;
+  background-color: #7d5eb6;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-transform: uppercase;
+  color: #e9e4ec;
+  font-weight: 540;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: #3f0d5c;
+}
+nav ul .opt {
+  margin-left: 30px;
+  font-size: 20px;
+}
+nav ul .opt_In {
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.contenedor {
+  width: 98%;
+  height: 400px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0px 10px 5px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+.contenedor .texto_index {
+  color: #e9e4ec;
+  background-color: #3f0d5c;
+}
+.contenedor .texto_index .list-group-item {
+  margin-left: 10px;
+  background-color: #dfc6e9;
+  color: #634895;
+  width: 80px;
+}
+.contenedor .imagenes {
+  background-color: #7d5eb6;
+  width: 720px;
+}
+.contenedor .imagenes .grupo {
+  margin: 0 50px 0 50px;
+  width: 350px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .hwasa {
+  width: 240px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .wheein {
+  width: 285px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .solar {
+  width: 265px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .moonbyul {
+  width: 295px;
+  margin: 80px 30px 30px 30px;
+}
+.contenedor .imagenes .golden {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .inkigayo {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .mnet {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .mbank {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .mama {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .mma {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+.contenedor .imagenes .smusica {
+  width: 450px;
+  margin: 80px 50px 30px 30px;
+}
+
+footer {
+  position: relative;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #7d5eb6;
+}
+footer .txt_footer {
+  color: #cfb8d9;
+  text-align: center;
+  font-size: 20px;
+}
+
+.titulo_bio {
+  margin: 20px;
+  text-align: center;
+  background-color: #3f0d5c;
+  color: #dfc6e9;
+}
+
+.predebut_h {
+  margin: 10px 0px 10px 47px;
+  width: 330px;
+}
+
+.predebut_s {
+  margin: 10px 0px 10px 47px;
+  width: 275px;
+}
+
+.predebut_m {
+  margin: 10px 0px 10px 47px;
+  width: 330px;
+}
+
+.predebut_w {
+  margin: 10px 0px 10px 47px;
+  width: 330px;
+}
+
+.debut {
+  margin: 10px 0px 10px 75px;
+  width: 400px;
+}
+
+.infobio_img {
+  margin-left: 350px;
+  width: 260px;
+}
+
+.infobio1_img {
+  margin-left: 150px;
+  width: 355px;
+}
+
+.info_bio {
+  width: 98%;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.mini_albums {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #7d5eb6;
+  color: #e9d4f2;
+}
+
+.debut_video {
+  margin: 25px;
+}
+
+.debut_video2 {
+  margin: 25px 0px 25px 135px;
+}
+
+.cont_miembros {
+  width: 98%;
+  height: 400px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.cont_miembros .miem_hijo {
+  background-color: #634895;
+  padding-bottom: 15px;
+  font-size: 30px;
+  color: #dfc6e9;
+}
+.cont_miembros .miem_hijo .nombres_miem {
+  background-color: #3f0d5c;
+}
+.cont_miembros .miem_hijo .insta_icon {
+  width: 60px;
+}
+.cont_miembros .miem_hijo .solar_miem {
+  width: 330px;
+  margin: 20px;
+}
+.cont_miembros .miem_hijo .hwasa_miem {
+  width: 300px;
+  margin: 20px;
+}
+.cont_miembros .miem_hijo .wheein_miem {
+  width: 316px;
+  margin: 20px;
+}
+.cont_miembros .miem_hijo .moon_miem {
+  width: 297px;
+  margin: 20px;
+}
+.cont_miembros .miem_hijo .posiciones {
+  font-size: 25px;
+  background-color: #3f0d5c;
+}
+.cont_miembros .miem_hijo .info_miem {
+  font-size: 20px;
+  color: #e9d4f2;
+  border-left: 1px solid #634895;
+  border-right: 1px solid #634895;
+}
+
+.titulo_album {
+  font-size: 20px;
+  color: #3f0d5c;
+  font-weight: bold;
+  background-color: #cfb8d9;
+}
+
+.singleC {
+  width: 250px;
+  margin: 15px;
+}
+
+.subtit_disc {
+  background-color: #cfb8d9;
+  color: #3f0d5c;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.canciones {
+  text-align: center;
+  color: #3f0d5c;
+  font-size: 15px;
+}
+
+.info_disc {
+  font-size: 15px;
+  color: #3f0d5c;
+}
+
+.info_disc_s {
+  margin-left: 110px;
+  font-size: 15px;
+  color: #3f0d5c;
+}
+
+.info_disc_h {
+  margin-left: 225px;
+  font-size: 15px;
+  color: #3f0d5c;
+}
+
+.subtit_single {
+  color: #dfc6e9;
+  font-weight: bold;
+  background-color: #634895;
+}
+
+.nombre_tour {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #d2bbdc;
+  color: #6f15a2;
+}
+
+.info_tours {
+  border: 1px solid #caa6da;
+}
+
+.info_tours_2021 {
+  border: 1px solid #caa6da;
+  margin-left: 170px;
+}
+
+.info_tours_2023 {
+  border: 1px solid #caa6da;
+  margin-left: 100px;
+}
+
+.main-Gal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-Gal .img-grupal {
+  margin: 20px;
+  width: 250px;
+  opacity: 0.5;
+  height: 300px;
+}
+.main-Gal .img-grupal:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: #3f0d5c;
+    box-sizing: border-box;
+    display: flex;
+  }
+  header .logo-principal {
+    padding: 90px 0px 80px 20px;
+    width: 500px;
+  }
+  header .main_Ind {
+    width: 280px;
+  }
+  header .mainBio {
+    padding-top: 60px;
+    width: 270px;
+  }
+  header .mainMiem {
+    padding-top: 50px;
+    width: 270px;
+  }
+  header .mainDisc {
+    padding-left: 0px;
+    width: 270px;
+  }
+  header .mainTourConc {
+    padding-left: 25px;
+    padding-top: 5px;
+    width: 270px;
+  }
+  header .mainGal {
+    padding-top: 70px;
+    width: 290px;
+  }
+  nav {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    padding: 5px 0px 5px 0;
+    background-color: #7d5eb6;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    text-transform: uppercase;
+    color: #e9e4ec;
+    font-weight: 540;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav ul li a:hover {
+    color: #3f0d5c;
+  }
+  nav ul .opt {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  nav ul .opt_In {
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  .contenedor {
+    width: 98%;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .contenedor .texto_index {
+    color: #e9e4ec;
+    background-color: #3f0d5c;
+  }
+  .contenedor .texto_index .list-group-item {
+    margin-left: 10px;
+    background-color: #dfc6e9;
+    color: #634895;
+    width: 80px;
+  }
+  .contenedor .imagenes {
+    background-color: #7d5eb6;
+    width: 720px;
+  }
+  .contenedor .imagenes .grupo {
+    margin: 0 50px 0 50px;
+    width: 350px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .hwasa {
+    width: 240px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .wheein {
+    width: 285px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .solar {
+    width: 265px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .moonbyul {
+    width: 295px;
+    margin: 80px 30px 30px 30px;
+  }
+  .contenedor .imagenes .golden {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .inkigayo {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .mnet {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .mbank {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .mama {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .mma {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .contenedor .imagenes .smusica {
+    width: 450px;
+    margin: 80px 50px 30px 30px;
+  }
+  .titulo_bio {
+    margin: 20px;
+    text-align: center;
+    background-color: #3f0d5c;
+    color: #dfc6e9;
+  }
+  .predebut_h {
+    margin: 10px 0px 10px 47px;
+    width: 140px;
+  }
+  .predebut_s {
+    margin: 10px 0px 10px 47px;
+    width: 115px;
+  }
+  .predebut_m {
+    margin: 10px 0px 10px 47px;
+    width: 140px;
+  }
+  .predebut_w {
+    margin: 10px 0px 10px 47px;
+    width: 140px;
+  }
+  .debut {
+    margin: 10px 0px 10px 35px;
+    width: 200px;
+  }
+  .infobio_img {
+    margin-left: 50px;
+    width: 260px;
+  }
+  .infobio1_img {
+    margin-left: 50px;
+    width: 355px;
+  }
+  .info_bio {
+    width: 98%;
+    margin: 20px;
+    font-size: 20px;
+  }
+  .mini_albums {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #7d5eb6;
+    color: #e9d4f2;
+  }
+  .debut_video {
+    margin: 25px 0px 0px 170px;
+  }
+  .debut_video2 {
+    margin: 25px 0px 25px 135px;
+  }
+  .cont_miembros {
+    width: 98%;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .cont_miembros .miem_hijo {
+    background-color: #634895;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #dfc6e9;
+  }
+  .cont_miembros .miem_hijo .nombres_miem {
+    background-color: #3f0d5c;
+  }
+  .cont_miembros .miem_hijo .insta_icon {
+    width: 60px;
+  }
+  .cont_miembros .miem_hijo .solar_miem {
+    width: 330px;
+    margin: 20px;
+  }
+  .cont_miembros .miem_hijo .hwasa_miem {
+    width: 300px;
+    margin: 20px;
+  }
+  .cont_miembros .miem_hijo .wheein_miem {
+    width: 316px;
+    margin: 20px;
+  }
+  .cont_miembros .miem_hijo .moon_miem {
+    width: 297px;
+    margin: 20px;
+  }
+  .cont_miembros .miem_hijo .posiciones {
+    font-size: 25px;
+    background-color: #3f0d5c;
+  }
+  .cont_miembros .miem_hijo .info_miem {
+    font-size: 20px;
+    color: #e9d4f2;
+    border-left: 1px solid #634895;
+    border-right: 1px solid #634895;
+  }
+  .info_disc_h {
+    font-size: 15px;
+    color: #3f0d5c;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

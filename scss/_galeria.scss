@@ -1,0 +1,14 @@
+.main-Gal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .img-grupal{
+        margin: 20px;
+        width: 250px;
+        opacity: 0.5;
+        height: 300px;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

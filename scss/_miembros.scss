@@ -1,0 +1,48 @@
+.cont_miembros{
+    width: 98%;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    .miem_hijo{
+        background-color: $colorTextNavPremios;
+        padding-bottom: 15px;
+        font-size: 30px;
+        color: $colorNavPremios;
+        .nombres_miem{
+            background-color:$colorHeader;
+        }
+        .insta_icon{
+            width: 60px;
+        }
+        .solar_miem{
+            width: 330px;
+            margin: 20px;
+        }
+        .hwasa_miem{
+            width: 300px;
+            margin: 20px;
+        }
+        .wheein_miem{
+            width: 316px;
+            margin: 20px;
+        }
+        .moon_miem{
+            width: 297px;
+            margin: 20px;
+        }
+        .posiciones{
+            font-size: 25px;
+            background-color: $colorHeader;
+        }
+        .info_miem{
+            font-size: 20px;
+            color: $colorTxtMiem;
+            border-left: 1px solid $colorTextNavPremios;
+            border-right: 1px solid $colorTextNavPremios;
+        }
+    }
+}

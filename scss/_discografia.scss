@@ -1,0 +1,40 @@
+.titulo_album{
+    font-size: 20px;
+    color: $colorHeader;
+    font-weight: bold;
+    background-color: $colorBGTxtDisc;
+}
+.singleC{
+    width: 250px;
+    margin: 15px;
+}
+.subtit_disc{
+    background-color:$colorBGTxtDisc;
+    color: $colorHeader;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.canciones{
+    text-align: center;
+    color: $colorHeader;
+    font-size: 15px;
+}
+.info_disc{
+    font-size: 15px;
+    color: $colorHeader;
+}
+.info_disc_s{
+    margin-left: 110px;
+    font-size: 15px;
+    color:$colorHeader;
+}
+.info_disc_h{
+    margin-left: 225px;
+    font-size: 15px;
+    color:$colorHeader;
+}
+.subtit_single{
+    color:$colorNavPremios;
+    font-weight: bold;
+    background-color:$colorTextNavPremios;
+}

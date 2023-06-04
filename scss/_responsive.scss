@@ -1,0 +1,253 @@
+@media(max-width: 768px){
+    header{
+        background-color: $colorHeader;
+        box-sizing: border-box;
+        display: flex;
+    
+        .logo-principal{
+            padding: 90px 0px 80px 20px;
+            width: 500px;
+        }
+        .main_Ind{
+            width: 280px;
+        }
+        .mainBio{
+            padding-top: 60px;
+            width:270px;
+        }
+        .mainMiem{
+            padding-top: 50px;
+            width:270px;
+        }
+        .mainDisc{
+            padding-left: 0px;
+            width: 270px;
+        }
+        .mainTourConc{
+            padding-left: 25px;
+            padding-top: 5px;
+            width:270px;
+        }
+        .mainGal{
+            padding-top: 70px;
+            width:290px;
+        }
+    }
+    
+    nav{
+        text-align: center;
+        position: relative;
+        top: 10px;
+        padding: 5px 0px  5px 0;
+        background-color: $colorNav;
+    
+        ul{
+            li{
+                display:inline;
+                a{
+                    text-transform: uppercase;
+                    color: $colortextNav;
+                    font-weight: 540;
+                    text-decoration: none;
+                    padding: 10px;
+    
+                    &:hover{
+                        color: $colorHeader;
+                    }
+                }
+            }
+            .opt{
+                margin-left: 30px;
+                font-size: 20px;
+            }
+            .opt_In{
+                margin-left: 40px;
+                font-size: 25px;
+            }
+        }
+    }
+    
+    .contenedor{
+        width: 98%;
+        height: 400px;
+        font-size: 20px;
+        text-align: center;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        .texto_index{
+            color:$colortextNav;
+            background-color: $colorHeader;
+            .list-group-item{
+                margin-left: 10px;
+                background-color:$colorNavPremios;
+                color: $colorTextNavPremios;
+                width: 80px;
+            }
+        }
+        .imagenes{
+            background-color: $colorNav;
+            width: 720px;
+            .grupo{
+                margin: 0 50px 0 50px;
+                width: 350px;
+                margin: 80px 50px 30px 30px;
+            }
+            .hwasa{
+                width: 240px;
+                margin: 80px 50px 30px 30px;
+            }
+            .wheein{
+                width: 285px;
+                margin: 80px 50px 30px 30px;
+            }
+            .solar{
+                width: 265px;
+                margin: 80px 50px 30px 30px;
+            }
+            .moonbyul{
+                width: 295px;
+                margin: 80px 30px 30px 30px;
+            }
+            .golden{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+                
+            .inkigayo{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+                
+            .mnet{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+                
+            .mbank{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+            .mama{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+                
+            .mma{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+                
+            .smusica{
+                width: 450px;
+                margin: 80px 50px 30px 30px;
+            }
+            }
+        }
+
+        .titulo_bio{
+            margin: 20px;
+            text-align: center;
+            background-color: $colorHeader;
+            color:$colorNavPremios;
+        }
+        .predebut_h{
+            margin: 10px 0px 10px 47px;
+            width: 140px;
+        }
+        .predebut_s{
+            margin: 10px 0px 10px 47px;
+            width: 115px;
+        }
+        .predebut_m{
+            margin: 10px 0px 10px 47px;
+            width: 140px;
+        }
+        .predebut_w{
+            margin: 10px 0px 10px 47px;
+            width: 140px;
+        }
+        .debut{
+            margin: 10px 0px 10px 35px;
+            width: 200px;
+        }
+        .infobio_img{
+            margin-left: 50px;
+            width: 260px;
+        }
+        .infobio1_img{
+            margin-left: 50px;
+            width: 355px;
+        }
+        .info_bio{
+            width: 98%;
+            margin: 20px;
+            font-size: 20px;
+        }
+        .mini_albums{
+            margin-top: 20px;
+            text-align: center;
+            background-color:$colorNav;
+            color: $colorTxtMiem;
+        }
+        .debut_video{
+            margin: 25px 0px 0px 170px;
+        }
+        .debut_video2{
+            margin:  25px  0px 25px 135px;
+        }
+        
+        .cont_miembros{
+            width: 98%;
+            height: 400px;
+            font-size: 20px;
+            text-align: center;
+            margin: 13px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            .miem_hijo{
+                background-color: $colorTextNavPremios;
+                padding-bottom: 15px;
+                font-size: 30px;
+                color: $colorNavPremios;
+                .nombres_miem{
+                    background-color:$colorHeader;
+                }
+                .insta_icon{
+                    width: 60px;
+                }
+                .solar_miem{
+                    width: 330px;
+                    margin: 20px;
+                }
+                .hwasa_miem{
+                    width: 300px;
+                    margin: 20px;
+                }
+                .wheein_miem{
+                    width: 316px;
+                    margin: 20px;
+                }
+                .moon_miem{
+                    width: 297px;
+                    margin: 20px;
+                }
+                .posiciones{
+                    font-size: 25px;
+                    background-color: $colorHeader;
+                }
+                .info_miem{
+                    font-size: 20px;
+                    color: $colorTxtMiem;
+                    border-left: 1px solid $colorTextNavPremios;
+                    border-right: 1px solid $colorTextNavPremios;
+                }
+            }
+        }
+        .info_disc_h{
+            font-size: 15px;
+            color:$colorHeader;
+        }
+}
