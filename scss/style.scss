@@ -42,14 +42,12 @@ header{
         width:505px;
     }
 }
-
-nav{
-    text-align: center;
+.navegacion{
+    background-color: $colorNav;
+    justify-content: left;
     position: relative;
     top: 10px;
-    padding: 5px 0px  5px 0;
-    background-color: $colorNav;
-
+    padding-left: 170px;
     ul{
         li{
             display:inline;
@@ -59,7 +57,7 @@ nav{
                 font-weight: 540;
                 text-decoration: none;
                 padding: 10px;
-
+    
                 &:hover{
                     color: $colorHeader;
                 }
@@ -99,7 +97,6 @@ nav{
         background-color: $colorNav;
         width: 720px;
         .grupo{
-            margin: 0 50px 0 50px;
             width: 350px;
             margin: 80px 50px 30px 30px;
         }
