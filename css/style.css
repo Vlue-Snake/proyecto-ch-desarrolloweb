@@ -50,6 +50,10 @@ header .mainGal {
   top: 10px;
   padding-left: 170px;
 }
+.navegacion .tit_nav {
+  color: #e9e4ec;
+  margin-top: 5px;
+}
 .navegacion ul li {
   display: inline;
 }
@@ -93,7 +97,7 @@ header .mainGal {
   width: 80px;
 }
 .contenedor .imagenes {
-  background-color: #7d5eb6;
+  background-color: #3f0d5c;
   width: 720px;
 }
 .contenedor .imagenes .grupo {
@@ -391,9 +395,8 @@ footer .txt_footer {
   }
   .navegacion {
     background-color: #7d5eb6;
-    justify-content: left;
     position: relative;
-    top: 10px;
+    top: 2.5px;
   }
   .navegacion ul li {
     display: inline;
@@ -401,20 +404,16 @@ footer .txt_footer {
   .navegacion ul li a {
     text-transform: uppercase;
     color: #e9e4ec;
-    font-weight: 540px;
     text-decoration: none;
-    padding: 10px;
-  }
-  .navegacion ul li a:hover {
-    color: #3f0d5c;
+    padding-bottom: 5px;
   }
   .navegacion ul .opt {
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 0.1px;
+    font-size: 10px;
   }
   .navegacion ul .opt_In {
-    margin-left: 40px;
-    font-size: 25px;
+    margin-left: 0.1px;
+    font-size: 15px;
   }
   .contenedor {
     width: 98%;
@@ -436,55 +435,56 @@ footer .txt_footer {
     color: #634895;
   }
   .contenedor .imagenes {
-    width: 300px;
+    width: 343px;
+    background-color: #3f0d5c;
   }
   .contenedor .imagenes .grupo {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .hwasa {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .wheein {
     width: 255px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .solar {
     width: 260px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .moonbyul {
     width: 250px;
-    margin: 50px 30px 0px 25px;
+    margin: 50px 30px 0px 47px;
   }
   .contenedor .imagenes .golden {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .inkigayo {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .mnet {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .mbank {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .mama {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .mma {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .contenedor .imagenes .smusica {
     width: 250px;
-    margin: 50px 50px 0px 25px;
+    margin: 50px 50px 0px 47px;
   }
   .titulo_bio {
     margin: 15px 0px 10px 0px;

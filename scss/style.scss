@@ -48,6 +48,10 @@ header{
     position: relative;
     top: 10px;
     padding-left: 170px;
+    .tit_nav{
+        color: $colortextNav;
+        margin-top: 5px;
+    }
     ul{
         li{
             display:inline;
@@ -94,7 +98,7 @@ header{
         }
     }
     .imagenes{
-        background-color: $colorNav;
+        background-color: $colorHeader;
         width: 720px;
         .grupo{
             width: 350px;
